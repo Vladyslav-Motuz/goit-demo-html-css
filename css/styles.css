@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 1);
+  color: rgba(33, 33, 33, 1);
 }
 a {
   text-decoration: none;
@@ -56,12 +57,12 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 1);
+  letter-spacing: 0.02em;  
   transition: color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .nav__link:hover,
-.nav__link:focus {
+.nav__link:focus,
+.nav__link:active {
   color: rgba(33, 150, 243, 1);
 }
 .nav__link--current {
@@ -83,7 +84,8 @@ img {
   transition: color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .contact__link:hover,
-.contact__link:focus {
+.contact__link:focus,
+.contact__link:active {
   color: rgba(33, 150, 243, 1);
 }
 
@@ -146,8 +148,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: rgba(33, 33, 33, 1);
+  text-transform: uppercase;  
 }
 .about__text {
   font-size: 14px;
@@ -167,8 +168,7 @@ img {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-align: center;
-  color: rgba(33, 33, 33, 1);
+  text-align: center;  
 }
 .working__list {
   display: flex;
@@ -189,8 +189,7 @@ img {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-align: center;
-  color: rgba(33, 33, 33, 1);
+  text-align: center;  
 }
 .teams__list {
   display: flex;
@@ -253,7 +252,8 @@ img {
   color: rgba(255, 255, 255, 1);
 }
 .footer__link:hover,
-.footer__link:focus {
+.footer__link:focus,
+.footer__link:active {
   color: rgba(33, 150, 243, 1);
 }
 
@@ -290,7 +290,8 @@ img {
 }
 
 .portfolio-filter__button:hover,
-.portfolio-filter__button:focus {
+.portfolio-filter__button:focus,
+.portfolio-filter__button:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: rgba(255, 255, 255, 1);
