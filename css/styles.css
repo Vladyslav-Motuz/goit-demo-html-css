@@ -57,7 +57,8 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;  
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 1);
   transition: color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .nav__link:hover,
